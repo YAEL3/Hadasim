@@ -47,12 +47,11 @@ def ex_file(str):
         for (key, value) in dic_colors.items():
             if value>0:
                 print("color",key ,"appear ",value, "times")
-    print(dic_words)
-    print(count_lines)
-    print(count_words)
-    print(count_one_words)
-    print("avarage is:" ,count_words/count_lines)
-    print("max:", max)
+    print("number of lines: ",count_lines)
+    print("number of words: ",count_words)
+    print("number of unique words: ",count_one_words)
+    print("the avarage sentence is:" ,count_words/count_lines)
+    print("the max sentence:", max)
     print("the populer word is:", max_key)
     print("the populer word (not syntask) is:", max_key2)
 
